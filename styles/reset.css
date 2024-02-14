@@ -1,0 +1,36 @@
+/* reset.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Normalizar box sizing */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Resetar margens e preenchimentos padrão */
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Resetar lista de estilos */
+  ol, ul {
+    list-style: none;
+  }
+  
+  /* Resetar estilos de link padrão */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Adicionar outras redefinições de estilo conforme necessário */
+  

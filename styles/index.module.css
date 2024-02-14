@@ -1,0 +1,160 @@
+/* styles.css (ou styles.module.css, dependendo da configuração do seu projeto) */
+.container {
+    background: linear-gradient(to top,#E6E6E6, white); /* Cores de exemplo */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.box {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    list-style: none;
+    padding: 20px 0;
+    margin: 0;
+  }
+  
+  .productItem {
+    background-color: white;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .productItem img {
+    max-width: 100px;
+    height: 150px;
+    margin-bottom: 8px;
+  }
+  
+  .productItem p {
+    margin: 0;
+  }
+
+  /* styles/banner.module.css */
+
+.bannerContainer {
+    background-image: url('/banner.jpg'); /* Substitua pelo caminho real da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Cor do texto no banner, ajuste conforme necessário */
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+  }
+
+  .bannerContent {
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um overlay escuro para melhorar a legibilidade do texto */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .bannerContent img {
+    width: 100px; /* Largura do avatar, ajuste conforme necessário */
+    height: 100px; /* Altura do avatar, ajuste conforme necessário */
+    border-radius: 50%; /* Bordas arredondadas para criar o formato de avatar */
+  }
+
+  .filterContainer {
+    text-align: center;
+  }
+
+  .searchInput {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+    width: 300px;
+  }
+  
+  .searchInput:focus {
+    border-color: #ddd; /* Cor da borda ao focar, ajuste conforme necessário */
+    outline: none;
+  }
+
+  .categorySelect {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .categorySelect:focus {
+    border-color: #ddd; /* Cor da borda ao focar, ajuste conforme necessário */
+    outline: none;
+  }
+
+  .pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination button:hover {
+    background-color: #ddd;
+  }
+  
+  .pageIndicator {
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+  /* styles/Footer.module.css */
+
+.footer {
+    background-color: #11111A;
+    color: #E4E7F8;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 70px;
+  }
+  
+  .socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .socialMedia a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .footerText p {
+    margin: 0;
+  }
+  
+  .footerText a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  /* Adicione estilos adicionais conforme necessário */
+  

@@ -1,0 +1,18 @@
+.container {
+    padding: 20px;
+    background: linear-gradient(to top,#E6E6E6, white);
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #3DA152; /* Cor da borda */
+    color: white; /* Cor do texto */
+    background-color: #3DA152; /* Cor de fundo */
+    border-radius: 5px;
+    margin: 20px 0;
+}

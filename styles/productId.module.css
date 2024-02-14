@@ -1,0 +1,94 @@
+/* styles.css (ou styles.module.css, dependendo da configuração do seu projeto) */
+.container {
+    background: linear-gradient(to top,#E6E6E6, white); /* Cores de exemplo */
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.productDetailsContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .productDetailsContainer img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  .productDetailsContainer iframe {
+    margin-top: 20px;
+  }
+  
+  .productDetailsContainer button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #3DA152; /* Cor da borda */
+    color: white; /* Cor do texto */
+    background-color: #3DA152; /* Cor de fundo */
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .productDetailsContainer button:hover {
+    background-color: #45a049;
+  }
+
+    /* styles/Footer.module.css */
+
+.footer {
+    background-color: #11111A;
+    color: #E4E7F8;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    padding: 70px;
+  }
+  
+  .socialMedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .socialMedia a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .footerText p {
+    margin: 0;
+  }
+  
+  .footerText a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid #3DA152; /* Cor da borda */
+    color: white; /* Cor do texto */
+    background-color: #3DA152; /* Cor de fundo */
+    border-radius: 5px;
+    margin: 20px 0;
+}
+  
+  /* Adicione estilos adicionais conforme necessário */
+  
